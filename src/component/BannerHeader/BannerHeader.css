@@ -1,0 +1,33 @@
+.banner_container { 
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.banner_wrapper {
+    position: absolute;
+    width: 100%;
+    top: -160%;
+    padding: 2px 0;
+    width: 100%;
+  padding: 0 15px;
+}
+
+.grid_banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.banner1 {
+    
+  position: relative;
+  overflow: hidden;
+}
+
+.grid_banner img {
+  max-width: 100%;
+  transition: all .6s;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+.grid_banner img:hover {
+    transform: scale(1.1);
+}
